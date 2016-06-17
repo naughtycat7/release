@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="taskRelease.bean">
+	<class name="UserInfo" table="userinfo">
+		<id name="id" column="Id" type="integer">
+			<generator class="identity"/>
+		</id>
+		<property name="uid" column="uid" type="integer"/>
+		<property name="fullName" column="full_name" type="string"/>
+	</class>
+</hibernate-mapping>

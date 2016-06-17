@@ -1,0 +1,102 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	height: 70px;
+	background-color: #000;
+}
+.nav span{
+	color: #fff;
+	line-height: 70px;
+	font-size: 30px;
+	margin-left: 20px;
+	font-weight: bold;
+
+}
+.borderClass{
+	border:1px solid #ccc;
+}
+.nav span:hover{
+	color:#fff;
+}
+#login{
+	border:1px solid #fff;
+	padding: 5px;
+	line-height: 70px;
+	float: right;
+	font-size: 15px;
+	line-height: normal;
+	margin:30px;
+}
+.container{
+	width: 1000px;
+	margin:0 auto;
+}
+.content img{
+	width: 100%;
+}
+.content ul{
+	list-style: none;
+}
+.content li{
+	display: inline-block;
+}
+.leftTop{
+	height: 300px;
+	width: 698px;
+}
+.leftBottom{
+	height:300px;
+	width: 698px;
+	margin-top: -3px;
+}
+.right{
+	height: 599px;
+	width: 299px;
+	float: right;
+	margin-left: -1px;
+}
+.leftTop:hover{
+	box-shadow: 0px 0px 5px #ccc;
+}
+.leftBottom:hover{
+	box-shadow: 0px 0px 5px #ccc;
+}
+.right:hover{
+	box-shadow: 0px 0px 5px #ccc;
+}
+.title{
+	display: inline-block;
+	padding: 10px 0;
+	text-indent: 2em;
+	color: #fff;
+	background-color:rgb(20,77,89);
+	width: 100%;
+}
+ol li{
+	width: 100%;
+	line-height:23px;
+	text-indent: 1em;
+}
+ol li:hover{
+	background-color: rgb(36,98,106);
+	color: #fff;
+}
+.date{
+	float: right;
+	padding-right: 10px;
+}
+.more{
+	float: right;
+	margin-right: 12px;
+	color:red;
+}
+footer{
+	background-color: #000;
+	color:#fff;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 10px;
+}

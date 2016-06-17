@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="taskRelease.bean">
+	<class name="Task" table="task">
+		<id name="id" column="Id" type="integer">
+			<generator class="identity"/>
+		</id>
+		<property name="title" column="title" type="string"/>
+		<property name="content" column="content" type="string"/>
+		<property name="releaseTime" column="release_time" type="long"/>
+		<property name="releaseTea" column="release_tea" type="integer"/>
+		<property name="receiverStu" column="receiver_stu" type="integer"/>
+		<property name="state" column="state" type="string"/>
+		<property name="finishTime" column="finish_time" type="long"/>
+	</class>
+</hibernate-mapping>
