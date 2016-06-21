@@ -9,5 +9,6 @@
 		</id>
 		<property name="name" column="name" type="string"/>
 		<property name="pwd" column="pwd" type="string"/>
+		<property name="type" column="type" type="string"/>
 	</class>
 </hibernate-mapping>

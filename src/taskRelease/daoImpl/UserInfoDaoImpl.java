@@ -8,6 +8,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 import org.springframework.stereotype.Component;
 
+import redis.clients.jedis.Jedis;
 import taskRelease.bean.UserInfo;
 import taskRelease.dao.UserInfoDao;
 
